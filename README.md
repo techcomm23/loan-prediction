@@ -1,89 +1,24 @@
-# Predicting whether a borrower is capable of repaying a loan
+# Predicting whether a borrower is capable of repaying a loan :moneybag:
 
-![repay](/images/repay.jpg)
+<img src="images/repay.jpg" width="500" height="200">
 
-One Paragraph of project description goes here
+---
+In this demo I will use TensorFlow to build a model that will attempt to predict whether someone will be able to pay back their loan based on historical data. 
 
-## Getting Started
+### Dataset
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The dataset I will use is LendingClub dataset (from Kaggle). LendingClub is a US lending company, that gives out loans to people and then they have to pay back that loan with a certain interest rate. Sometimes, people won't pay off that loan, and the company is going to have to record that as what's known as a “charge_off”. Essentially they have to write off the loan because it wasn't paid back to them.
 
-### Prerequisites
 
-What things you need to install the software and how to install them
+### Goal
+The “loan_status” column will contain our label. We're going to try to predict, based off historical data and the features of a potential borrower, whether or not they will default on the loan. So, customer either will default (i.e. “charge_off”) or will they fully pay back the loan (i.e. “fully_paid).
 
-```
-Give examples
-```
+### Steps
+I will go through different steps required to build a model that meets required goal above. The step will include the following: 
+1. Exploratory data analysis
+1. Dealing with missing data
+1. Dealing with categorical data
+1. Data preprocessing
+1. Creating and training the model
+1. Model evaluation
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
