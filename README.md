@@ -12,7 +12,7 @@ The dataset I will use is LendingClub dataset (from Kaggle). LendingClub is a US
 
 
 ### Goal
-The “loan_status” column will contain our label. We're going to try to predict, based off historical data and the features of a potential borrower, whether or not they will default on the loan. So, customer either will default (i.e. “charge_off”) or will they fully pay back the loan (i.e. “fully_paid).
+The “loan_status” column will contain our label. We're going to try to predict, based off historical data and the features of a potential borrower, whether or not they will default on the loan. So, customer either will default (i.e. “charge_off”) or they will fully pay back the loan (i.e. “fully_paid).
 
 ### Steps
 I will go through different steps required to build a model that meets required goal above. The steps will include the following: 
