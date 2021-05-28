@@ -1,4 +1,4 @@
-# LENDER
+# RepaY
 ## Predicting whether a borrower is capable of repaying a loan :moneybag::dollar::bank:
 
 <img src="images/repay.jpg" width="500" height="200">
