@@ -1,8 +1,9 @@
-# Predicting whether a borrower is capable of repaying a loan :moneybag:
+# Predicting whether a borrower is capable of repaying a loan :moneybag::dollar::bank:
 
 <img src="images/repay.jpg" width="500" height="200">
 
----
+
+
 In this demo I will use TensorFlow to build a model that will attempt to predict whether someone will be able to pay back their loan based on historical data. 
 
 ### Dataset
@@ -14,7 +15,7 @@ The dataset I will use is LendingClub dataset (from Kaggle). LendingClub is a US
 The “loan_status” column will contain our label. We're going to try to predict, based off historical data and the features of a potential borrower, whether or not they will default on the loan. So, customer either will default (i.e. “charge_off”) or will they fully pay back the loan (i.e. “fully_paid).
 
 ### Steps
-I will go through different steps required to build a model that meets required goal above. The step will include the following: 
+I will go through different steps required to build a model that meets required goal above. The steps will include the following: 
 1. Exploratory data analysis
 1. Dealing with missing data
 1. Dealing with categorical data
